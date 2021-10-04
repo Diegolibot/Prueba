@@ -110,6 +110,7 @@ function addToCartClicked(event) {
               error.innerText="Already in your team";
               error.style.textAlign = "right"
               modal.style.display = "block";
+              window.setTimeout(function(){location.reload()},1800)
               return
             }else {
               modal.style.display = "block";
@@ -123,7 +124,7 @@ function addToCartClicked(event) {
                 });
               if (result){
                 modal.style.display = "block";
-                window.location.href = "./intro3.html";
+                window.location.href = "intro3.html";
 
               }else{
                 error = document.getElementById("congrat");
@@ -140,10 +141,10 @@ function addToCartClicked(event) {
                  var q = quotes[ Math.floor( Math.random() * quotes.length ) ];
                 error.innerText=q;
                 modal.style.display = "block";
-                //window.setTimeout(function(){location.reload()},1000)
+                window.setTimeout(function(){location.reload()},1800)
 
                 return;
-                
+
 
 
               }
@@ -217,8 +218,10 @@ function addCrew(title, price) {
             deletebtn=document.getElementById("YES")
             deletebtn.remove()
             error.innerText="Already in your team";
+            window.setTimeout(function(){location.reload()},1000)
             error.style.textAlign = "right"
             modal.style.display = "block";
+            return;
             switch (crew.length) {
               case 1:
               document.getElementById("sombras").src = '../statics/media/img/suno.png';
