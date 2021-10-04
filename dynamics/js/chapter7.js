@@ -36,7 +36,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","Understood, captain.",10,1],
     ["dialog","The next day, Akira commited suicide and because thereare no other pilots available, \n the crew of mission Eros 5 must remain longer on Mars till the next mission arrives",13,4],
    
-    ["end","","http://localhost/Programa/templates/chapter7exp.html",1,"chapter8"]
+    ["end","","./chapter7exp.html",1,"chapter8"]
   ];
   
     //Para el inicio: ["start",imagen de fondo, imagen de personaje]

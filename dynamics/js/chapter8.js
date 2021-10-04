@@ -23,7 +23,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","I'm probably visiting my family, and then I'll  treat myself like royalty",11,9],
     ["dialog","I'm going to pack my stuff and move with one of my friends to her apartment",12,9],
     ["dialog","I think I'll go to Hawaii with my girlfriend",7,9],
-    ["end","","http://localhost/Programa/templates/chapter7exp.html",1,"chapter7"]
+    ["end","","./chapter7exp.html",1,"chapter7"]
   ];
   
     //Para el inicio: ["start",imagen de fondo, imagen de personaje]

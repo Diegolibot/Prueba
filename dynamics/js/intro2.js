@@ -10,7 +10,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","Excellent choice, captain!",0,1],
     ["dialog","Like any great project, you will need the help of a great team, so we\n ask that you now pick your crewmates, remember that the ship has a maximum capacity\n of 6 crew members (including you).",2,1],
     ["dialog","Please choose wisely who you want to accompany you.",2,1],
-    ["end","","http://localhost/Programa/templates/store.html"]
+    ["end","","./store.html"]
   ];
   
   let imagesrcs = ["JJfeliz.png","back1.png","JJserio.png"]; //las imágenes que se usarán

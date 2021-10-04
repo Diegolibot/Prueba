@@ -28,13 +28,13 @@ let suitcolor = sessionStorage.getItem("Suit");
     //Dead 2
     ["dialog","Oh no, not only did we lose the wheat and potato crops, but also our other crops began to wither.",8,10],
     ["dialog","It's too late to save the crops, the base is running out of food supplies \nand the next cargo with food will come months from now.\n A lot of people died of undernourishment and heart problems.",0,10],
-    ["end","","http://localhost/Programa/templates/chapter6exp.html",1],
+    ["end","","./chapter6exp.html",1],
     ["skip",22],
     //Correct
     ["dialog","10 days later...",0,10],
     ["dialog","Great! A miracle happened! The crops are saved and we have enough\n food for the entire base.",6,10],
 
-    ["end","","http://localhost/Programa/templates/chapter6exp.html",1,"chapter7"]
+    ["end","","./chapter6exp.html",1,"chapter7"]
   ];
   
     //Para el inicio: ["start",imagen de fondo, imagen de personaje]

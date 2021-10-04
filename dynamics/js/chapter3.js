@@ -36,7 +36,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","Captain, you go first, who would you like to be your bunk bed partner?",9,1],
     ["twoop",4,1,"Biogist","Geologist",0],
     ["skip",27],
-    ["end","","http://localhost/Programa/templates/chapter3exp.html",1,"chapter4"]
+    ["end","","./chapter3exp.html",1,"chapter4"]
   ];
 
    

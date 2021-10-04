@@ -28,12 +28,12 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","Shortly after the hike had begun, the night fell, and it was deadly cold.",0,2],
     ["dialog","Eventually the spacesuits ran out of battery before the astronauts had reached the base.",0,2],
     ["dialog","The crew and the driver all die due to the lack of oxygen and warmth provided by the suits.",0,2],
-    ["end","","http://localhost/Programa/templates/chapter4exp.html"],
+    ["end","","./chapter4exp.html"],
     ["skip",32],
     //Dead 2
     ["dialog","After waiting for the rescue to come, the night fell and the vehicle ran out of battery.\nBecoming useless to all the passengers inside.",0,2],
     ["dialog","The cold starts to make its way inside and without a life support system provided \nfrom the vehicle, the crew and the driver die.",0,2],
-    ["end","","http://localhost/Programa/templates/chapter4exp.html"],
+    ["end","","./chapter4exp.html"],
     ["skip",32],
     //Correct
     ["dialog","*Almost one hour later, the base coordinates arrive*",0,2],
@@ -42,7 +42,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","",11,2],
     //Ing 
     ["dialog","See, I told you to trust the Captain. We made it!",12,2],
-    ["end","","http://localhost/Programa/templates/chapter4exp.html",1,"chapter5"]
+    ["end","","./chapter4exp.html",1,"chapter5"]
   ];
   
     //Para el inicio: ["start",imagen de fondo, imagen de personaje]

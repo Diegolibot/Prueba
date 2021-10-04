@@ -25,7 +25,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","A few hours later...",0,8],
     ["dialog","There is no doubt, it is an infection caused by anaerobic bacteria, we will\n have to remove all the necrotic tissue and you will be under treatment of strong antibiotics.",9,8],
     ["dialog","* The infection caused bacterial sepsis and he died *",9,8],
-    ["end","","http://localhost/Programa/templates/chapter5exp.html"],
+    ["end","","./chapter5exp.html"],
     ["skip",22],
     //Correct
     //Medico sure
@@ -33,7 +33,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","Let me disinfect the wound first, this may hurt and then I'm going to stitch it and hopefully it won't scar.",10,8],
     ["dialog","* some suttures later *",10,8],
     ["dialog","All done! If you feel any pain, come with me again and I will give you some pills.",10,8],
-    ["end","","http://localhost/Programa/templates/chapter5exp.html",1,"chapter6"]
+    ["end","","./chapter5exp.html",1,"chapter6"]
   ];
   
     //Para el inicio: ["start",imagen de fondo, imagen de personaje]

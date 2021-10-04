@@ -32,7 +32,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog","Remember we have pills that will protect us from radiation.\nCaptain, should we take them now?",11,3],
     ["twoop",5,3,"Take them now","Later",0,"important","Pills"],
     ["dialog","Captain, would you mind coming to check the flight report at the comm center?",9,3],
-    ["end","","http://localhost/Programa/templates/chapter2exp.html",1,"chapter3"]
+    ["end","","./chapter2exp.html",1,"chapter3"]
   ];
 
     
