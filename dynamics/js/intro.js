@@ -7,7 +7,7 @@ let suitcolor = sessionStorage.getItem("Suit");
   //para tomar desiciones, etc.
   let sequence = [ 
     ["start",1,0],
-    ["dialog","Good morning Captain _____ , welcome to the ARES facilities.",2,1],
+    ["dialog","Good morning Captain, welcome to the ARES facilities.",2,1],
     ["dialog","We appreciate your participation as captain of the EROS 5\n mission to Mars with the purpose of advancing to phase II of colonization.",0,1],
     ["dialog"," We know that this great mission requires someone strong, intelligent \nand skilled like you, capable of carrying out the mission successfully.",2,1],
     ["dialog","But before going into any more specifics, please choose your suit.",2,1],
