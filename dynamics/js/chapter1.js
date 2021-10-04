@@ -21,7 +21,7 @@ let suitcolor = sessionStorage.getItem("Suit");
     ["dialog"," Congratulations! You have completed your training outstandingly,\n but now we need you to answer one question. Are you willing to continue exercising \nduring and after your journey to Mars?",0,1],
     ["twoop",2,1,"Yes","No",0,"important","Train"],
     ["dialog","As you wish. I hope everything goes according to plan tomorrow.\n Good luck!",0,1],
-    ["end","","http://localhost/Programa/templates/chapters.html",1,"chapter2"]
+    ["end","","./chapters.html",1,"chapter2"]
   ];
     //Para el inicio: ["start",imagen de fondo, imagen de personaje]
     //Para diálogos: ["sialog",text, imagen de personaje,imagen de fondo]
